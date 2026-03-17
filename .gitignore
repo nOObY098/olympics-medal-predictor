@@ -1,0 +1,45 @@
+# === Data (never commit raw data to git) ===
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+
+# === Environment & secrets ===
+.env
+*.key
+secrets.json
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Virtual environments ===
+venv/
+.venv/
+env/
+.env/
+
+# === OS clutter ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE / editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Logs & outputs (regenerate these, don't track them) ===
+logs/
+*.log
