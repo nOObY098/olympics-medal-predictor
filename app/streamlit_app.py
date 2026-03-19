@@ -12,7 +12,7 @@ st.set_page_config(
 # Load data
 @st.cache_data
 def load_data():
-    predictions = pd.read_csv('../data/processed/medals_features.csv')
+    predictions = pd.read_csv('data/processed/medals_features.csv')
     return predictions
 
 df = load_data()
