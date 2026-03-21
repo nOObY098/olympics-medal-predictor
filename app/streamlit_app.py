@@ -35,6 +35,7 @@ st.header("2028 Predictions")
 # Top N chart
 top = df_2016.sort_values('total', ascending=False).head(top_n)
 colors = ['#d62728' if (noc == 'USA' and show_host) else '#1f77b4' for noc in top['NOC']]
+colors = colors[::-1]
 
 fig = go.Figure(go.Bar(
     x=top['total'],
