@@ -51,7 +51,7 @@ olympics-medal-predictor/
 
 ### Data Sources
 - **Medal history**: [Kaggle — 120 Years of Olympic History](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) — athlete-level results from 1896 to 2016, filtered to Summer Olympics only
-- **Economic data**: World Bank GDP per capita (1960–2023), reshaped from wide to long format and merged on country-year
+- **Economic data**: World Bank GDP per capita (1960–2024), reshaped from wide to long format and merged on country-year
 
 ### Key Features Engineered
 
@@ -132,4 +132,4 @@ python -m streamlit run app/streamlit_app.py
 
 ## Author
 
-Your Name — [LinkedIn](https://linkedin.com) · [GitHub](https://github.com)
+Niko Komljenović — [LinkedIn](https://www.linkedin.com/in/niko-komljenovi%C4%87-b5bbba2a9/) · [GitHub](https://github.com/nOObY098)
