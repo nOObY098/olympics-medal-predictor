@@ -51,7 +51,7 @@ olympics-medal-predictor/
 
 ### Data Sources
 - **Medal history**: [Kaggle — 120 Years of Olympic History](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) — athlete-level results from 1896 to 2016, filtered to Summer Olympics only
-- **Economic data**: [World Bank GDP per capita (1960–2024)](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?end=2024&start=1960&view=map&year=1960), reshaped from wide to long format and merged on country-year
+- **Economic data**: [World Bank GDP per capita (1960–2024)](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?end=2024&start=1960&view=map&year=1960) — reshaped from wide to long format and merged on country-year
 
 ### Key Features Engineered
 
