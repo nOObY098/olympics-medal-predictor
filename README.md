@@ -71,22 +71,6 @@ GDP coverage was 64% after mapping NOC codes to World Bank ISO-3 codes. Missing 
 - **Validation**: Time-series split — train on 1960–2012, test on Rio 2016
 - **Explainability**: SHAP values used to interpret feature importance per prediction
 
-### Top 2028 Predictions
-
-| Rank | Country | Predicted medals |
-|------|---------|-----------------|
-| 1 | USA | 254 |
-| 2 | RUS | 162 |
-| 3 | CHN | 141 |
-| 4 | GBR | 117 |
-| 5 | AUS | 111 |
-| 6 | GER | 107 |
-| 7 | FRA | 81 |
-| 8 | JPN | 73 |
-| 18 | CRO | 29 |
-
----
-
 ## How to Run
 
 ```bash
